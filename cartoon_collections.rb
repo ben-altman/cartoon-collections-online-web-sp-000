@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarves)
-  dwarves.collect {|x| x.sort_by.length}
+  dwarves.collect {|x| x.sort}
   puts dwarves
 end
 
