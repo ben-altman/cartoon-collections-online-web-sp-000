@@ -11,7 +11,7 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)# code an argument here
-  array.include? {|e| e.length > 4}
+  array.each {|e| e.length > 4}
 end
 
 def find_the_cheese# code an argument here
