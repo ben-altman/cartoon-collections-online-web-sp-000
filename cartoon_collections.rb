@@ -1,4 +1,5 @@
-def roll_call_dwarves(dwarves)# code an argument here
+def roll_call_dwarves(dwarves)
+  dwarves.sort_by {|x| x.length}
   # Your code here
 end
 
