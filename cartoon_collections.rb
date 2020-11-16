@@ -1,6 +1,6 @@
 def roll_call_dwarves(array)
-  array.each_with_index do |name, index|
-    puts "#{index+1}. #{name}"
+  array.each_with_index do |name, index|      #gets name and index
+    puts "#{index+1}. #{name}"                #puts number from 1 with dwarf name
   end
 end
 
